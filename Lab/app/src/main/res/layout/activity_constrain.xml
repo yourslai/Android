@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".ConstrainActivity">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="左上"
+        android:background="#f00"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="右上"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="水平垂直居中"
+        android:background="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="最底下"
+        android:background="@android:color/holo_purple"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+       />
+
+    <Button
+        android:id="@+id/button_center_left"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="中间左边"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginRight="20dp"
+        app:layout_constraintRight_toLeftOf="@+id/button_center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button_center_right"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="中间右边"
+        android:background="#FFC107"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/button_center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

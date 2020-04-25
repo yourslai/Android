@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323"
+    android:stretchColumns="1"
+    tools:context=".TableActivity">
+
+    <TableRow
+        android:background="#232323"
+        >
+        <TextView
+            android:layout_column="1"
+            android:text="Open..."
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Ctrl-O"
+            android:textColor="#554D4D"/>
+    </TableRow>
+
+    <TableRow
+        android:background="#232323"
+        >
+        <TextView
+            android:layout_column="1"
+            android:text="Save..."
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+        <TextView
+            android:text="Ctrl-S"
+            android:gravity="right"
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+    </TableRow>
+
+    <TableRow
+        android:background="#232323">
+        <TextView
+            android:layout_column="1"
+            android:text="Save As..."
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:gravity="right"
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090"
+        android:textColor="#554D4D"/>
+
+    <TableRow
+        android:background="#232323">
+        <TextView
+            android:text="X"
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+        <TextView
+            android:text="Import..."
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+    </TableRow>
+
+    <TableRow
+        android:background="#232323">
+        <TextView
+            android:text="X"
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+        <TextView
+            android:text="Export..."
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+        <TextView
+            android:text="Ctrl-E"
+            android:gravity="right"
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow
+        android:background="#232323">
+        <TextView
+            android:layout_column="1"
+            android:text="Quit"
+            android:padding="3dip"
+            android:textColor="#554D4D"/>
+    </TableRow>
+</TableLayout>
